@@ -1,0 +1,6 @@
+"0","baltimore %>%"
+"0","  group_by(buyer_name) %>%"
+"0","  summarise(pills_per_pharmacy = sum(dosage_unit)) %>%"
+"0","  mutate(total_pills = sum(pills_per_pharmacy)) %>%"
+"0","    mutate(pharmacy_percent_total_pills = round(((pills_per_pharmacy/total_pills)*100),2)) %>%"
+"0","  arrange(desc(pharmacy_percent_total_pills))"

@@ -1,0 +1,4 @@
+"0","# Load data and store it as an object called logan"
+"0",""
+"0","baltimore <- read_tsv(""data/arcos-md-baltimore-city-24510-itemized.tsv"")"
+"0",""

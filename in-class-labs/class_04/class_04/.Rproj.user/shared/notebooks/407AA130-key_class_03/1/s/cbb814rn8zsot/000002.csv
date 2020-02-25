@@ -1,0 +1,130 @@
+"0","glimpse(logan)"
+"1","Observations: 65,359
+"
+"1","Variables: 42
+"
+"1","$ REPORTER_DEA_NO       [3m[38;5;246m<chr>[39m[23m ""RC0282498"", ""RG0131499"", ""RG0131499"", ""RG0131499"", ""RG0131499"", ""RG0131499"", ""RG0131499"", ""RG0131499"",…
+"
+"1",""
+"1","$ REPORTER_BUS_ACT      [3m[38;5;246m<chr>[39m[23m ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR""…
+"
+"1",""
+"1","$ REPORTER_NAME         [3m[38;5;246m<chr>[39m[23m ""CEDARDALE DISTRIBUTORS LLC, D/B/A GEN-SOURCE RX"", ""THE HARVARD DRUG GROUP-MI"", ""THE HARVARD DRUG GROUP…
+"
+"1",""
+"1","$ REPORTER_ADDL_CO_INFO [3m[38;5;246m<chr>[39m[23m ""null"", ""EXPERT-MED/LETCO MEDICAL"", ""EXPERT-MED/LETCO MEDICAL"", ""EXPERT-MED/LETCO MEDICAL"", ""EXPERT-MED…
+"
+"1",""
+"1","$ REPORTER_ADDRESS1     [3m[38;5;246m<chr>[39m[23m ""620 GOTHAM PARKWAY"", ""FIRST VETERINARY SUPPLY"", ""FIRST VETERINARY SUPPLY"", ""FIRST VETERINARY SUPPLY"", …
+"
+"1",""
+"1","$ REPORTER_ADDRESS2     [3m[38;5;246m<chr>[39m[23m ""null"", ""31778 ENTERPRISE DRIVE"", ""31778 ENTERPRISE DRIVE"", ""31778 ENTERPRISE DRIVE"", ""31778 ENTERPRISE…
+"
+"1",""
+"1","$ REPORTER_CITY         [3m[38;5;246m<chr>[39m[23m ""CARLSTADT"", ""LIVONIA"", ""LIVONIA"", ""LIVONIA"", ""LIVONIA"", ""LIVONIA"", ""LIVONIA"", ""LIVONIA"", ""LIVONIA"", ""L…
+"
+"1",""
+"1","$ REPORTER_STATE        [3m[38;5;246m<chr>[39m[23m ""NJ"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""MI"", ""…
+"
+"1",""
+"1","$ REPORTER_ZIP          [3m[38;5;246m<dbl>[39m[23m 7072, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150, 48150,…
+"
+"1",""
+"1","$ REPORTER_COUNTY       [3m[38;5;246m<chr>[39m[23m ""BERGEN"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WAYNE"", ""WA…
+"
+"1",""
+"1","$ BUYER_DEA_NO          [3m[38;5;246m<chr>[39m[23m ""BF0660565"", ""AA1873783"", ""AA6614603"", ""AA6614603"", ""AA6614603"", ""AA6614603"", ""AA6614603"", ""AH2605131"",…
+"
+"1",""
+"1","$ BUYER_BUS_ACT         [3m[38;5;246m<chr>[39m[23m ""RETAIL PHARMACY"", ""PRACTITIONER-DW/100"", ""RETAIL PHARMACY"", ""RETAIL PHARMACY"", ""RETAIL PHARMACY"", ""RET…
+"
+"1",""
+"1","$ BUYER_NAME            [3m[38;5;246m<chr>[39m[23m ""FAMILY DISCOUNT PHARMACY INC"", ""AGAS, ULYSSES D MD"", ""ARACOMA DRUG CO OF CHAPMANVIL"", ""ARACOMA DRUG CO…
+"
+"1",""
+"1","$ BUYER_ADDL_CO_INFO    [3m[38;5;246m<chr>[39m[23m ""null"", ""557 MAIN ST"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", …
+"
+"1",""
+"1","$ BUYER_ADDRESS1        [3m[38;5;246m<chr>[39m[23m ""360 MOUNT GAY ROAD"", ""PO BOX 210"", ""772 MAIN STREET"", ""772 MAIN STREET"", ""772 MAIN STREET"", ""772 MAIN …
+"
+"1",""
+"1","$ BUYER_ADDRESS2        [3m[38;5;246m<chr>[39m[23m ""null"", ""557 MAIN STREET"", ""BOX 1570"", ""BOX 1570"", ""BOX 1570"", ""BOX 1570"", ""BOX 1570"", ""MAIN STREET"", ""…
+"
+"1",""
+"1","$ BUYER_CITY            [3m[38;5;246m<chr>[39m[23m ""MOUNT GAY"", ""LOGAN"", ""CHAPMANVILLE"", ""CHAPMANVILLE"", ""CHAPMANVILLE"", ""CHAPMANVILLE"", ""CHAPMANVILLE"", ""…
+"
+"1",""
+"1","$ BUYER_STATE           [3m[38;5;246m<chr>[39m[23m ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""WV"", ""…
+"
+"1",""
+"1","$ BUYER_ZIP             [3m[38;5;246m<dbl>[39m[23m 25637, 25601, 25508, 25508, 25508, 25508, 25508, 25508, 25508, 25508, 25508, 25508, 25508, 25508, 25508…
+"
+"1",""
+"1","$ BUYER_COUNTY          [3m[38;5;246m<chr>[39m[23m ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOGAN"", ""LOG…
+"
+"1",""
+"1","$ TRANSACTION_CODE      [3m[38;5;246m<chr>[39m[23m ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S""…
+"
+"1",""
+"1","$ DRUG_CODE             [3m[38;5;246m<dbl>[39m[23m 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9193, 9…
+"
+"1",""
+"1","$ NDC_NO                [3m[38;5;246m<chr>[39m[23m ""00591038505"", ""53746011901"", ""00591054005"", ""00591085305"", ""00591034905"", ""00591050305"", ""00591038705""…
+"
+"1",""
+"1","$ DRUG_NAME             [3m[38;5;246m<chr>[39m[23m ""HYDROCODONE"", ""HYDROCODONE"", ""HYDROCODONE"", ""HYDROCODONE"", ""HYDROCODONE"", ""HYDROCODONE"", ""HYDROCODONE""…
+"
+"1",""
+"1","$ QUANTITY              [3m[38;5;246m<dbl>[39m[23m 4, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 3, 3, 3, 3, 3, 3, 2, 2, 3, 1, 1, 1, 3, 5, 2, 10, 30, 6, 17, 11, 3, 5, …
+"
+"1",""
+"1","$ UNIT                  [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ ACTION_INDICATOR      [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ ORDER_FORM_NO         [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ CORRECTION_NO         [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ STRENGTH              [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ TRANSACTION_DATE      [3m[38;5;246m<chr>[39m[23m ""11252008"", ""09212009"", ""08182008"", ""08182008"", ""09242008"", ""08192009"", ""05132010"", ""01062006"", ""021020…
+"
+"1",""
+"1","$ CALC_BASE_WT_IN_GM    [3m[38;5;246m<dbl>[39m[23m 9.081000, 1.210800, 6.054000, 6.054000, 3.027000, 6.054000, 4.540500, 6.810750, 0.302700, 4.540500, 6.8…
+"
+"1",""
+"1","$ DOSAGE_UNIT           [3m[38;5;246m<dbl>[39m[23m 2000, 200, 1000, 1000, 1000, 1000, 1000, 1500, 200, 1000, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 100…
+"
+"1",""
+"1","$ TRANSACTION_ID        [3m[38;5;246m<dbl>[39m[23m 575, 909009393, 908010285, 908010286, 908010301, 909008791, 610006660, 306001691, 306001720, 306001754,…
+"
+"1",""
+"1","$ Product_Name          [3m[38;5;246m<chr>[39m[23m ""HYDROCODONE BIT.7.5MG/ACETAMINOPHEN"", ""HYDROCODONE BITARTRATE/APAP 10MG/500"", ""HYDROCODONE BIT. 10MG/A…
+"
+"1",""
+"1","$ Ingredient_Name       [3m[38;5;246m<chr>[39m[23m ""HYDROCODONE BITARTRATE HEMIPENTAHYDRATE"", ""HYDROCODONE BITARTRATE HEMIPENTAHYDRATE"", ""HYDROCODONE BITA…
+"
+"1",""
+"1","$ Measure               [3m[38;5;246m<chr>[39m[23m ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB""…
+"
+"1",""
+"1","$ MME_Conversion_Factor [3m[38;5;246m<dbl>[39m[23m 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0…
+"
+"1",""
+"1","$ Combined_Labeler_Name [3m[38;5;246m<chr>[39m[23m ""Actavis Pharma, Inc."", ""Amneal Pharmaceuticals LLC"", ""Actavis Pharma, Inc."", ""Actavis Pharma, Inc."", ""…
+"
+"1",""
+"1","$ Revised_Company_Name  [3m[38;5;246m<chr>[39m[23m ""Allergan, Inc."", ""Amneal Pharmaceuticals, Inc."", ""Allergan, Inc."", ""Allergan, Inc."", ""Allergan, Inc."",…
+"
+"1",""
+"1","$ Reporter_family       [3m[38;5;246m<chr>[39m[23m ""Cedardale Distributors LLC, DBA Gen-Source RX"", ""The Harvard Drug Group"", ""The Harvard Drug Group"", ""T…
+"
+"1",""
+"1","$ dos_str               [3m[38;5;246m<dbl>[39m[23m 7.5, 10.0, 10.0, 10.0, 5.0, 10.0, 7.5, 7.5, 2.5, 7.5, 7.5, 7.5, 5.0, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 5.0,…
+"

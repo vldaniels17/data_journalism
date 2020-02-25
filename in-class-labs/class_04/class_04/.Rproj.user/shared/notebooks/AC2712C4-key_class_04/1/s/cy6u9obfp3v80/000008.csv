@@ -1,0 +1,5 @@
+"0","baltimore %>%"
+"0","  filter(drug_name == ""HYDROCODONE"") %>%"
+"0","  filter(dosage_unit == 48000) %>%"
+"0","  mutate(pipeline = paste0(combined_labeler_name, ""--"",reporter_name,""--"",buyer_name)) %>%"
+"0","  select(pipeline, transaction_date, dosage_unit, everything())"

@@ -1,0 +1,7 @@
+"0",""
+"0","Baltimore %>%"
+"0","  group_by(buyer_name) %>%"
+"0","  summarise(shipments = n(),"
+"0","            total_pills = sum(dosage_unit))%>%"
+"0","  arrange(desc(total_pills)) %>%"
+"0","  mutate(shipments_rank = percent_rank(shipments)) "

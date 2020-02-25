@@ -1,0 +1,6 @@
+"0",""
+"0","baltimore %>%"
+"0","  group_by(buyer_name) %>%"
+"0","  summarise(shipments = n())"
+"2","Error: Column `buyer_name` is unknown
+"

@@ -1,0 +1,4 @@
+"0","# Load data and store it as an object called logan"
+"0",""
+"0","logan <- read_tsv(""data/arcos-wv-logan-54045-itemized.tsv"")"
+"0",""

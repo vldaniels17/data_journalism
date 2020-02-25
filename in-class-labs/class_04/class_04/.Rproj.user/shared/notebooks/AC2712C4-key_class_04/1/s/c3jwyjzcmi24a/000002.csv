@@ -1,0 +1,135 @@
+"0","# Code to glimpse"
+"0","glimpse(baltimore)"
+"1","Observations: 290,908
+"
+"1","Variables: 42
+"
+"1","$ REPORTER_DEA_NO       [3m[38;5;246m<chr>[39m[23m ""PB0034861"", ""PB0034861"", ""PB0034861"", ""PB0034861"", ""PB0034861"", ""PB0034861"", ""PD002956…
+"
+"1",""
+"1","$ REPORTER_BUS_ACT      [3m[38;5;246m<chr>[39m[23m ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR"", ""DISTRIBUTOR…
+"
+"1",""
+"1","$ REPORTER_NAME         [3m[38;5;246m<chr>[39m[23m ""BELLCO DRUG CORP"", ""BELLCO DRUG CORP"", ""BELLCO DRUG CORP"", ""BELLCO DRUG CORP"", ""BELLCO…
+"
+"1",""
+"1","$ REPORTER_ADDL_CO_INFO [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ REPORTER_ADDRESS1     [3m[38;5;246m<chr>[39m[23m ""5500 NEW HORIZONS BLVD"", ""5500 NEW HORIZONS BLVD"", ""5500 NEW HORIZONS BLVD"", ""5500 NEW…
+"
+"1",""
+"1","$ REPORTER_ADDRESS2     [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""7721 POLK STREET"", ""7721 POLK STREET"",…
+"
+"1",""
+"1","$ REPORTER_CITY         [3m[38;5;246m<chr>[39m[23m ""NORTH AMITYVILLE"", ""NORTH AMITYVILLE"", ""NORTH AMITYVILLE"", ""NORTH AMITYVILLE"", ""NORTH …
+"
+"1",""
+"1","$ REPORTER_STATE        [3m[38;5;246m<chr>[39m[23m ""NY"", ""NY"", ""NY"", ""NY"", ""NY"", ""NY"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD…
+"
+"1",""
+"1","$ REPORTER_ZIP          [3m[38;5;246m<dbl>[39m[23m 11701, 11701, 11701, 11701, 11701, 11701, 20785, 20785, 20785, 20785, 20785, 20785, 207…
+"
+"1",""
+"1","$ REPORTER_COUNTY       [3m[38;5;246m<chr>[39m[23m ""SUFFOLK"", ""SUFFOLK"", ""SUFFOLK"", ""SUFFOLK"", ""SUFFOLK"", ""SUFFOLK"", ""PRINCE GEORGES"", ""PR…
+"
+"1",""
+"1","$ BUYER_DEA_NO          [3m[38;5;246m<chr>[39m[23m ""BS9306944"", ""BS9306944"", ""BS9306944"", ""BS9306944"", ""BS9306944"", ""BS9306944"", ""AD196155…
+"
+"1",""
+"1","$ BUYER_BUS_ACT         [3m[38;5;246m<chr>[39m[23m ""RETAIL PHARMACY"", ""RETAIL PHARMACY"", ""RETAIL PHARMACY"", ""RETAIL PHARMACY"", ""RETAIL PHA…
+"
+"1",""
+"1","$ BUYER_NAME            [3m[38;5;246m<chr>[39m[23m ""SUNRISE PHARMACY"", ""SUNRISE PHARMACY"", ""SUNRISE PHARMACY"", ""SUNRISE PHARMACY"", ""SUNRIS…
+"
+"1",""
+"1","$ BUYER_ADDL_CO_INFO    [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ BUYER_ADDRESS1        [3m[38;5;246m<chr>[39m[23m ""1900 EAST NORTHERN PKWY SUITE 100"", ""1900 EAST NORTHERN PKWY SUITE 100"", ""1900 EAST NO…
+"
+"1",""
+"1","$ BUYER_ADDRESS2        [3m[38;5;246m<chr>[39m[23m ""SUITE 100"", ""SUITE 100"", ""SUITE 100"", ""SUITE 100"", ""SUITE 100"", ""SUITE 100"", ""6913 BEL…
+"
+"1",""
+"1","$ BUYER_CITY            [3m[38;5;246m<chr>[39m[23m ""BALTIMORE"", ""BALTIMORE"", ""BALTIMORE"", ""BALTIMORE"", ""BALTIMORE"", ""BALTIMORE"", ""BALTIMOR…
+"
+"1",""
+"1","$ BUYER_STATE           [3m[38;5;246m<chr>[39m[23m ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD"", ""MD…
+"
+"1",""
+"1","$ BUYER_ZIP             [3m[38;5;246m<dbl>[39m[23m 21239, 21239, 21239, 21239, 21239, 21239, 21206, 21206, 21206, 21206, 21206, 21206, 212…
+"
+"1",""
+"1","$ BUYER_COUNTY          [3m[38;5;246m<chr>[39m[23m ""BALTIMORE CITY"", ""BALTIMORE CITY"", ""BALTIMORE CITY"", ""BALTIMORE CITY"", ""BALTIMORE CITY…
+"
+"1",""
+"1","$ TRANSACTION_CODE      [3m[38;5;246m<chr>[39m[23m ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S"", ""S…
+"
+"1",""
+"1","$ DRUG_CODE             [3m[38;5;246m<dbl>[39m[23m 9193, 9143, 9143, 9143, 9143, 9143, 9143, 9143, 9143, 9193, 9143, 9143, 9143, 9143, 919…
+"
+"1",""
+"1","$ NDC_NO                [3m[38;5;246m<chr>[39m[23m ""00591085305"", ""00054465029"", ""60951070070"", ""00054465029"", ""00406851501"", ""52152021502…
+"
+"1",""
+"1","$ DRUG_NAME             [3m[38;5;246m<chr>[39m[23m ""HYDROCODONE"", ""OXYCODONE"", ""OXYCODONE"", ""OXYCODONE"", ""OXYCODONE"", ""OXYCODONE"", ""OXYCOD…
+"
+"1",""
+"1","$ QUANTITY              [3m[38;5;246m<dbl>[39m[23m 2, 4, 5, 4, 10, 10, 8, 1, 2, 1, 2, 2, 3, 5, 2, 4, 2, 2, 3, 2, 4, 1, 3, 2, 3, 1, 3, 2, 1…
+"
+"1",""
+"1","$ UNIT                  [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ ACTION_INDICATOR      [3m[38;5;246m<chr>[39m[23m ""null"", ""I"", ""I"", ""null"", ""I"", ""I"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""nu…
+"
+"1",""
+"1","$ ORDER_FORM_NO         [3m[38;5;246m<chr>[39m[23m ""null"", ""054340512"", ""054340512"", ""061029210"", ""061029200"", ""061029217"", ""055009154"", ""…
+"
+"1",""
+"1","$ CORRECTION_NO         [3m[38;5;246m<chr>[39m[23m ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ STRENGTH              [3m[38;5;246m<chr>[39m[23m ""0000"", ""0000"", ""0000"", ""0000"", ""0000"", ""0000"", ""null"", ""null"", ""null"", ""null"", ""null"",…
+"
+"1",""
+"1","$ TRANSACTION_DATE      [3m[38;5;246m<chr>[39m[23m ""01262006"", ""02212006"", ""02212006"", ""06082006"", ""07212006"", ""03152007"", ""01182006"", ""10…
+"
+"1",""
+"1","$ CALC_BASE_WT_IN_GM    [3m[38;5;246m<dbl>[39m[23m 6.054000, 8.965000, 3.361875, 8.965000, 13.447500, 26.895000, 3.585600, 1.793000, 14.34…
+"
+"1",""
+"1","$ DOSAGE_UNIT           [3m[38;5;246m<dbl>[39m[23m 1000, 2000, 500, 2000, 1000, 1000, 800, 100, 200, 100, 200, 200, 300, 500, 200, 400, 20…
+"
+"1",""
+"1","$ TRANSACTION_ID        [3m[38;5;246m<dbl>[39m[23m 8219, 5449, 5722, 2231, 5301, 5541, 601037271, 610042351, 701044679, 801058523, 8030491…
+"
+"1",""
+"1","$ Product_Name          [3m[38;5;246m<chr>[39m[23m ""HYDROCODONE BIT. 10MG/ACETAMINOPHEN"", ""ROXICET - OXYCODONE.HCL & ACETA 5MG/"", ""ENDOCET…
+"
+"1",""
+"1","$ Ingredient_Name       [3m[38;5;246m<chr>[39m[23m ""HYDROCODONE BITARTRATE HEMIPENTAHYDRATE"", ""OXYCODONE HYDROCHLORIDE"", ""OXYCODONE HYDROC…
+"
+"1",""
+"1","$ Measure               [3m[38;5;246m<chr>[39m[23m ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TAB"", ""TA…
+"
+"1",""
+"1","$ MME_Conversion_Factor [3m[38;5;246m<dbl>[39m[23m 1.0, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.0, 1.5, 1.5, 1.5, 1.5, 1.0, 1.5, 1.5, 1.…
+"
+"1",""
+"1","$ Combined_Labeler_Name [3m[38;5;246m<chr>[39m[23m ""Actavis Pharma, Inc."", ""West-Ward Pharmaceuticals Corp."", ""Par Pharmaceutical"", ""West-…
+"
+"1",""
+"1","$ Revised_Company_Name  [3m[38;5;246m<chr>[39m[23m ""Allergan, Inc."", ""West-Ward Pharmaceuticals Corp."", ""Endo Pharmaceuticals, Inc."", ""Wes…
+"
+"1",""
+"1","$ Reporter_family       [3m[38;5;246m<chr>[39m[23m ""Bellco Drug Corp"", ""Bellco Drug Corp"", ""Bellco Drug Corp"", ""Bellco Drug Corp"", ""Bellco…
+"
+"1",""
+"1","$ dos_str               [3m[38;5;246m<dbl>[39m[23m 10.0, 5.0, 7.5, 5.0, 15.0, 30.0, 5.0, 20.0, 80.0, 5.0, 10.0, 40.0, 10.0, 30.0, 5.0, 30.…
+"
+"0","# 65,359 rows (or observations or obs), 42 columns (or variables)"
+"0","# The ZIP code columns could easily be stored as character data, because it would be silly to do math on them. Readr saw all digits in that column and guessed that we wanted it to be a number.  In fact, this probably created problems.  Look at the first record for REPORTER_ZIP. That's a distributor in Carlstadt, NJ.  The ZIP Code there is 07072.  But by storing it as a number, R cut off the first zero.  Later on, we'll get into how to tell R to read in certain columns as characters or numbers. Drug code is another example of something we don't need to do math on, so it probably should be stored as a character."
+"0","# Transaction Date is a good example of column that is stored as a character, but should really be stored as a date.  We'll learn how to do that in future assignments."
+"0","# Missing values appear to have been coded as the word ""null"".  In some cases, missing values will be stored as literally a missing value -- instead of ""null"" you'll have """".  More common is NA, which is a hidden character indicating a missing value.  "

@@ -1,0 +1,6 @@
+"0",""
+"0","# Take the logan dataframe, AND THEN select only the columns we want AND THEN sort it highest to lowest by number of pills and only returns transactions with 15K or more pills. "
+"0","logan %>%"
+"0","  select(Combined_Labeler_Name, REPORTER_NAME, BUYER_NAME, DOSAGE_UNIT) %>%"
+"0","  arrange(desc(DOSAGE_UNIT)) %>%"
+"0","  filter(DOSAGE_UNIT >= 15000)"

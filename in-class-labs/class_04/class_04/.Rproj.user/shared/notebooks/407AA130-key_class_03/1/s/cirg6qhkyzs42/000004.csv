@@ -1,0 +1,4 @@
+"0","rm(list=ls(""logan""))
+"
+"2","Error in as.environment(pos) : no item called ""logan"" on the search list
+"
