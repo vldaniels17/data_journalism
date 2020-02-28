@@ -1,0 +1,5 @@
+"0",""
+"0","pills_population <- pills_population %>%"
+"0","  select(countyfips, buyer_county.x, buyer_state.x, average_pills_per_year, average_population_per_year) %>%"
+"0","  rename(buyer_county = buyer_county.x, buyer_state = buyer_state.x)"
+"0",""

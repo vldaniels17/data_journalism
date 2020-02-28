@@ -1,0 +1,5 @@
+"0",""
+"0","mingo <- mingo %>%"
+"0","  mutate(transaction_date = mdy(transaction_date)) %>%"
+"0","  select(transaction_date, everything())"
+"0","  "

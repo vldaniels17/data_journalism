@@ -1,0 +1,4 @@
+"0",""
+"0","pills_population_right <- county_pills_per_year %>%"
+"0","  right_join(county_population_per_year, by=""countyfips"")"
+"0",""

@@ -1,0 +1,4 @@
+"0",""
+"0","mingo_buyer_join <- mingo_buyer_per_year %>%"
+"0","  inner_join(mingo_buyer_addresses, by=""buyer_dea_no"")"
+"0",""

@@ -1,0 +1,5 @@
+"0",""
+"0","# Load data and store it as an object called Mingo"
+"0",""
+"0","mingo <- read_tsv(""data/arcos-wv-mingo-54059-itemized.tsv"")"
+"0",""

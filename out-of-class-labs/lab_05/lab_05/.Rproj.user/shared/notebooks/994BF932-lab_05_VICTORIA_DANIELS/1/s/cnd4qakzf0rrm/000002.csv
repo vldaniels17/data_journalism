@@ -1,0 +1,5 @@
+"0",""
+"0","pills_population %>%"
+"0","  mutate(avg_yearly_pills_per_person = average_pills_per_year/average_population_per_year) %>%"
+"0","  select(buyer_county, buyer_state, avg_yearly_pills_per_person, average_pills_per_year, average_population_per_year, countyfips) %>%"
+"0","  arrange(desc(avg_yearly_pills_per_person))"

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582912359789.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7D5BBF90",
+    "lastKnownWriteTime" : 16044318491672691,
+    "last_content_update" : 1582912359789,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A742324E",
+        "caption" : "pills_population_left",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pills_population_left&cache_key=A742324E",
+        "displayedObservations" : 3130,
+        "environment" : "",
+        "expression" : "pills_population_left",
+        "object" : "pills_population_left",
+        "preview" : 0,
+        "totalObservations" : 3130,
+        "variables" : 7
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

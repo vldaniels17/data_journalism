@@ -1,0 +1,4 @@
+"0","mingo <- mingo %>%"
+"0","  mutate(transaction_year = year(transaction_date)) %>%"
+"0","  select(transaction_date, transaction_year, everything())"
+"0","  "
