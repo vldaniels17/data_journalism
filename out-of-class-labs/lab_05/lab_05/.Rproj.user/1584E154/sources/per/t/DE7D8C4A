@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582913111487.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DE7D8C4A",
+    "lastKnownWriteTime" : 16044318488723571,
+    "last_content_update" : 1582913111487,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AB9228A1",
+        "caption" : "pills_population_oops",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pills_population_oops&cache_key=AB9228A1",
+        "displayedObservations" : "306",
+        "environment" : "",
+        "expression" : "pills_population_oops",
+        "object" : "pills_population_oops",
+        "preview" : "0",
+        "totalObservations" : "306",
+        "variables" : "7"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582910806504.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3B153686",
+    "lastKnownWriteTime" : 4189032028197581669,
+    "last_content_update" : 1582910806504,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "FBC62DB6",
+        "caption" : "mingo",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=mingo&cache_key=FBC62DB6",
+        "displayedObservations" : 37154,
+        "environment" : "",
+        "expression" : "mingo",
+        "object" : "mingo",
+        "preview" : 0,
+        "totalObservations" : 37154,
+        "variables" : 42
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

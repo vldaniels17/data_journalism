@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582912807962.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E9AE6250",
+    "lastKnownWriteTime" : 16044318488723571,
+    "last_content_update" : 1582912807962,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6D88B463",
+        "caption" : "mingo_buyer_per_year",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=mingo_buyer_per_year&cache_key=6D88B463",
+        "displayedObservations" : "71",
+        "environment" : "",
+        "expression" : "mingo_buyer_per_year",
+        "object" : "mingo_buyer_per_year",
+        "preview" : "0",
+        "totalObservations" : "71",
+        "variables" : "6"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

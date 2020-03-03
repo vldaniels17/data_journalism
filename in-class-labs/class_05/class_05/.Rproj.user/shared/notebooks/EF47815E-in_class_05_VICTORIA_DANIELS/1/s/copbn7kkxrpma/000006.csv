@@ -1,0 +1,5 @@
+"0","buyer_addresses <- read_csv(""data/buyer_addresses.csv"")"
+"0","buyer_annuals <- read_csv (""data/buyer_annual_by_year.csv"")"
+"0","buyer_totals <-read_csv(""data/buyer_totals.csv"")"
+"0","state_population <- read_csv(""data/state_population_per_year.csv"")"
+"0",""
