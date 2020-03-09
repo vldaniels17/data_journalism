@@ -1,0 +1,3 @@
+"0","  ggplot(baltimore_city_pills_per_year) +"
+"0","  geom_bar(stat=""identity"", aes(year, dosage_unit), fill=""royal blue"") +"
+"0","  labs(x=""Year"", y=""Total pills"", title=""In Baltimore City, opioids fall in 2007, then climb steadily through 2012"", subtitle = ""Total pills shipped to Baltimore City by year"", caption = ""Source: DEA ARCOS database, via Washington Post"") "

@@ -1,0 +1,3 @@
+"0","mingo_county_pills_per_year <- arcos_county_pills_per_year %>%"
+"0","  filter(buyer_state == ""WV"", buyer_county == ""MINGO"") %>%"
+"0","  select(year, dosage_unit)"

@@ -1,0 +1,5 @@
+"0","#create subset"
+"0","westvirginia_pills_2012 <- arcos_county_pills_per_year %>%"
+"0","  filter(buyer_state == ""WV"", year==""2012"") %>%"
+"0","  select(buyer_county, year, dosage_unit)"
+"0",""

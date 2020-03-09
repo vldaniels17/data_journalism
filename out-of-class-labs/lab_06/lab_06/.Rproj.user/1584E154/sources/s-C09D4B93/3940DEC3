@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583711037367.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3940DEC3",
+    "lastKnownWriteTime" : 13792484315299955,
+    "last_content_update" : 1583711037367,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "EBA4EC07",
+        "caption" : "westvirginia_2012",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=westvirginia_2012&cache_key=EBA4EC07",
+        "displayedObservations" : 55,
+        "environment" : "",
+        "expression" : "westvirginia_2012",
+        "object" : "westvirginia_2012",
+        "preview" : 0,
+        "totalObservations" : 55,
+        "variables" : 3
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

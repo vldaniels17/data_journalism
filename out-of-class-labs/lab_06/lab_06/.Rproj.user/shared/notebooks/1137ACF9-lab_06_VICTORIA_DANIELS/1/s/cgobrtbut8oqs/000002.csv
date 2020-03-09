@@ -1,0 +1,4 @@
+"0","maryland_2012 <- maryland_pills_2012 %>%"
+"0","  inner_join(maryland_population_2012, by=(""buyer_county"")) %>%"
+"0","  select(buyer_county, dosage_unit, population)"
+"0",""

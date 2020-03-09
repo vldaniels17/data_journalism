@@ -1,0 +1,3 @@
+"0","  ggplot(baltimore_city_pills_per_year) +"
+"0","  geom_bar(stat=""identity"", aes(year, dosage_unit), fill=""royal blue"") +"
+"0","  labs(x=""Year"", y=""Total pills"") "

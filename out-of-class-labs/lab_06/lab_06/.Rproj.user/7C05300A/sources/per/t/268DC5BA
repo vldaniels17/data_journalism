@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571441367547.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "268DC5BA",
+    "lastKnownWriteTime" : 4294967296,
+    "last_content_update" : 1571441367547,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AC0FF0DF",
+        "caption" : "baltimore_city_pills_per_year",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=baltimore_city_pills_per_year&cache_key=AC0FF0DF",
+        "displayedObservations" : 7,
+        "environment" : "",
+        "expression" : "baltimore_city_pills_per_year",
+        "object" : "baltimore_city_pills_per_year",
+        "preview" : 0,
+        "totalObservations" : 7,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,5 @@
+"0","  options(scipen=999)"
+"0"," "
+"0","  ggplot(baltimore_city_pills_per_year) +"
+"0","  geom_bar(stat=""identity"", aes(year, dosage_unit))"
+"0",""

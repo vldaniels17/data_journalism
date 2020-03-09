@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571441137158.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8F6F5A9F",
+    "lastKnownWriteTime" : 1571440559,
+    "last_content_update" : 1571441137158,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F2748C8D",
+        "caption" : "arcos_county_pills_per_year",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=arcos_county_pills_per_year&cache_key=F2748C8D",
+        "displayedObservations" : 21597,
+        "environment" : "",
+        "expression" : "arcos_county_pills_per_year",
+        "object" : "arcos_county_pills_per_year",
+        "preview" : 0,
+        "totalObservations" : 21597,
+        "variables" : 6
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

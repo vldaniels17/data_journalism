@@ -1,0 +1,4 @@
+"0",""
+"0","maryland_pills_per_year <- arcos_county_pills_per_year %>%"
+"0","  filter(buyer_state == ""MD"", (buyer_county %in% c(""ANNE ARUNDEL"", ""BALTIMORE CITY"", ""BALTIMORE"", ""HOWARD"",""MONTGOMERY"", ""PRINCE GEORGES""))) %>%"
+"0","  select(buyer_county, year, dosage_unit)"

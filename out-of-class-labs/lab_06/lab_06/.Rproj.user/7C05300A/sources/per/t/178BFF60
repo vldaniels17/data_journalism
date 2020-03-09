@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571441980049.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "178BFF60",
+    "lastKnownWriteTime" : 4294967296,
+    "last_content_update" : 1571441980049,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "28358CDC",
+        "caption" : "maryland_pills_per_year",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=maryland_pills_per_year&cache_key=28358CDC",
+        "displayedObservations" : 42,
+        "environment" : "",
+        "expression" : "maryland_pills_per_year",
+        "object" : "maryland_pills_per_year",
+        "preview" : 0,
+        "totalObservations" : 42,
+        "variables" : 3
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
