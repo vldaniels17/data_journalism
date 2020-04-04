@@ -1,0 +1,190 @@
+---
+title: "Class 07 | R continued"
+author: "Sean Mussenden"
+date: "3/26/2019"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE, paged.print=TRUE)
+```
+
+## Objective
+
+The purpose of this in-class assignment is to give you practice with exploratory mapping, building on the work you did in the last lab.
+
+## Tasks, Turning it In, Getting Help
+
+At several points throughout this document, you will see the word **Task**.  
+
+That indicates I'm expecting you to modify the file I've given you, usually by creating a codeblock and writing some custom code.
+
+When you are finished, you should save your R markdown file and Knit it as an HTML file.
+
+You should upload it to GitHub, using GitHub desktop.
+
+And the links to your project is what you'll post on ELMS.
+
+Need help?  You are welcome to do the following things:
+
+* Refer to the previous week's lab.
+* Use Google or search Stack Overflow. Try searching for your error message or translating your problem into basic terms.
+* Check out the excellent [R for Data Science](https://r4ds.had.co.nz/index.html)
+* Take a look at the [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) and [Tidyverse documentation](https://www.tidyverse.org/).
+  * [RStudio cheatsheet](https://www.rstudio.com/resources/cheatsheets/#ide)
+  * [Readr and Tidyr cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf) and [Readr documentation](https://readr.tidyverse.org/) and [Tidyr documentation](https://tidyr.tidyverse.org/reference/index.html).
+  * [Dplyr cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf) and [Dplyr documentation](https://dplyr.tidyverse.org/)
+  * [Lubridate cheatsheet](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) and [Lubridate documentation](https://lubridate.tidyverse.org/).
+  * [GGPlot cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf) and [GGplot Documentation](https://ggplot2.tidyverse.org/reference/)
+  * [GitHub desktop help](https://help.github.com/en/desktop/getting-started-with-github-desktop)
+* If you're really stuck, message me on ELMS.
+
+## Setup
+
+Take the following steps to set up your document:
+
+1. Download the ZIP file and open the folder inside of your class assignments folder.  It should contain this document, class_07.Rmd.
+2. Open this file in RStudio.
+3. Rename this file "class_07_FIRSTNAME_LASTNAME.Rmd".
+5. Create a new R project inside of this folder, which will set the working directory in this folder.   
+
+## Load Packages
+
+We're loading four packages today: the Tidyverse (for general data science goodness and visualizations), janitor (for data cleaning), arcos (for loading WaPo opioid data) and tidycensus for pulling in shapefiles from the U.S. Census.
+
+We're also going to load a new package, [tidycensus](https://walkerke.github.io/tidycensus/index.html), for pulling in data from the U.S. Census.  
+
+**Task**: In the code block below, load the six packages we'll need for today. Install packages if necessary.
+```{r}
+library(tidyverse)
+library(janitor)
+library(arcos)
+library(tidycensus)
+library(mapview)
+library(ggthemes)
+library(scales)
+
+```
+
+## Set ARCOS R Package API Key
+
+For this exercise, we will be working with subsets of the DEA's ARCOS database, which documented shipments of 76 billion opioid pills between 2006 and 2014, during the peak of the opioid epidemic.
+
+The data was obtained after a lengthy legal battle by the Washington Post and the Charleston Gazette-Mail, and released by the Washington Post in raw and aggregated form. [Washington Post "Digging into the DEA's pain pill database" page](https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/).
+
+A data dictionary is available here: [ARCOS Registrant Handbook](https://www.deadiversion.usdoj.gov/arcos/handbook/full.pdf).
+
+We're going to load opioid data exclusively from the arcos R package API [ARCOS API](https://wpinvestigative.github.io/arcos/) produced by the Washington Post, instead of uploading csvs and tsvs.
+
+Remember, we need to store a password of sorts -- called an API key -- that will give us permission to access their data.  Here's a list of [API keys that will work](https://github.com/wpinvestigative/arcos-api/blob/master/keys/keys.txt).  
+
+Store the key first.
+
+```{r}
+# store the ARCOS API key as an object called key
+key <- "uO4EK6I"
+```
+
+## Load Data
+
+Load the data you'll need for this assignment.
+
+We'll need two tables.
+
+The first: a table with the total number of pills sent to each U.S. county in each year from 2006 to 2014 . We'll use the summarized_county_annual() function from the ARCOS API package.
+
+```{r}
+arcos_county_pills_per_year <- summarized_county_annual(key = key) %>%
+  as_data_frame() %>%
+  clean_names()
+
+glimpse(arcos_county_pills_per_year)
+```
+
+The second: a table with the population of each U.S. county in each year from 2006 to 2014.
+
+**Task**: Using the county_population() function that is part of the ARCOS API, pull in a table with county population for each year from 2006 to 2014 and store it as arcos_county_population_per_year. Be sure to clean up the column names, using the clean_names() function.
+
+```{r}
+arcos_county_population_per_year <- county_population(key = key) %>%
+  as_data_frame() %>%
+  clean_names()
+
+glimpse(arcos_county_population_per_year)
+```
+
+## Make some maps
+
+**Task**: Make a "static facet map", with one map per year between 2006 and 2014, *showing only West Virginia counties*.
+
+If you need help, refer to the last lab, where we created a similar map.  
+
+You should have nine little maps of West Virginia, one for each year between 2006 and 2014. Each county should be shaded based on the number of pills per person shipped to each county in each year.  
+
+It should look like this: https://github.com/smussenden/spring20-data-journalism/blob/master/in_class_assignments/class_07/images/task1.png.  
+
+Then provide a short writeup on what you find. What trends do you see?
+
+```{r}
+# Step 1: First define your census API key
+census_api_key("549950d36c22ff16455fe196bbbd01d63cfbe6cf")
+
+```
+
+```{r}
+# Step 2: Get county level shapefiles from the census
+county_geodata <- get_acs(geography = "county",
+              variables = "B01001_001", geometry = TRUE)
+
+```
+
+```{r}
+# Step 3: Join together table with pills by county by year with table with population by county by year
+
+pills_population <- arcos_county_population_per_year %>%
+  left_join(arcos_county_pills_per_year, by = c("countyfips", "year", "buyer_county","buyer_state"))
+
+
+```
+
+
+```{r}
+#step 4 and 5
+pills_population_county_westvirginia <- pills_population %>%
+  filter(buyer_state== "WV") %>%
+  group_by(countyfips, buyer_county, year) %>%
+  summarise(total_pills=sum(dosage_unit, na.rm = TRUE),
+            total_population=sum(dosage_unit, na.rm=TRUE)) %>%
+  mutate(pills_per_person=total_pills/total_population)
+
+geo_pills_population_county_westvirginia <- county_geodata %>%
+ inner_join(pills_population_county_westvirginia, by=c("GEOID" = "countyfips"))
+
+```
+
+```{r}
+geo_pills_population_county_westvirginia %>%
+  ggplot(aes(fill = pills_per_person)) +
+  facet_wrap(~year, nrow=2) +
+  geom_sf(lwd = 0) +
+  theme_map() +
+  labs(fill='Pills per Person',title="Pills Per Person in West Virginia Counties", subtitle = "", caption = "Source: ARCOS database") +
+  theme(legend.position="bottom") +
+  scale_fill_viridis_c(option = "magma",labels = comma)
+```
+**Task**: Modify the facet map you just created to *show West Virginia AND Kentucky counties*, and only show *2006, 2007, 2008 and 2009*, instead of all 9 years.
+
+It should look like this: https://github.com/smussenden/spring20-data-journalism/blob/master/in_class_assignments/class_07/images/task2.png
+
+```{r}
+
+```
+
+
+## Submission
+
+Save the R Markdown file.  Knit it to HTML and make sure it compiles correctly. Upload to GitHub, as instructed.  Provide links to GitHub in ELMS.   
