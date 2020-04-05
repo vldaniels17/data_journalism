@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586113844257.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E73196D9",
+    "lastKnownWriteTime" : 32369824192659557,
+    "last_content_update" : 1586113844257,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "bd86ddc0c9c7469a999bffcc1b789cfe",
+        "name" : "<html>",
+        "title" : "opioid_states_scrape"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

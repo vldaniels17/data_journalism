@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586113761918.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "29EE4140",
+    "lastKnownWriteTime" : 1884799941840,
+    "last_content_update" : 1586113761918,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "95D95ED4",
+        "caption" : "opioid_scrape",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=opioid_scrape&cache_key=95D95ED4",
+        "displayedObservations" : 53,
+        "environment" : "",
+        "expression" : "opioid_scrape",
+        "object" : "opioid_scrape",
+        "preview" : 0,
+        "totalObservations" : 53,
+        "variables" : 3
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

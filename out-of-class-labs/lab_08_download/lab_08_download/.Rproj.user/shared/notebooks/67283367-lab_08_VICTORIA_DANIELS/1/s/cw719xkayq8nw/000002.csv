@@ -1,0 +1,2 @@
+"0","white_population_by_state <- get_acs(geography = ""state"", "
+"0","              variables=""B02001_002"", year=2014, geometry = FALSE )"

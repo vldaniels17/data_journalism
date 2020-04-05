@@ -1,0 +1,2 @@
+"0","county_median_household_income <- get_acs(geography = ""county"", "
+"0","              variables=""B19013_001"", year=2012, geometry = FALSE )"
