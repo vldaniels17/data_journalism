@@ -1,0 +1,6 @@
+"0",""
+"0","# Calculate correlation coefficient"
+"0","pills_population_income %>%"
+"0","  ungroup() %>%"
+"0","  select(median_household_income, average_pills_per_person) %>%"
+"0","  correlate()"

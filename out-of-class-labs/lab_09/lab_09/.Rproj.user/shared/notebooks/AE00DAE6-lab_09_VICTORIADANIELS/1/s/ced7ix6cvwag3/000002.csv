@@ -1,0 +1,5 @@
+"0","census_api_key(""549950d36c22ff16455fe196bbbd01d63cfbe6cf"")"
+"0","# acs_variables <- load_variables(2017, ""acs5"" )"
+"0",""
+"0","county_median_household_income <- get_acs(geography = ""county"", "
+"0","              variables=""B19013_001"", year=2012, geometry = FALSE)"

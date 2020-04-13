@@ -1,0 +1,8 @@
+"0",""
+"0","pills_population <- arcos_county_population_per_year %>%"
+"0","  left_join(arcos_county_pills_per_year, by = c(""countyfips"", ""year"", ""buyer_county"",""buyer_state"")) %>%"
+"0","  group_by(countyfips, buyer_county, buyer_state) %>%"
+"0","  summarise(average_pills_per_year = mean(dosage_unit),"
+"0","            average_population_per_year = mean(population)) %>%"
+"0","  mutate(average_pills_per_person = round(average_pills_per_year/average_population_per_year,2))"
+"0",""

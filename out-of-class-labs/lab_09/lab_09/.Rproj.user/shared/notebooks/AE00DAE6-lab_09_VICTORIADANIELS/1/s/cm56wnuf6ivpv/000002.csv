@@ -1,0 +1,8 @@
+"0",""
+"0","# Group into five buckets and calculate median household income and average pills per person"
+"0","pills_population_income %>%"
+"0"," ungroup() %>%"
+"0"," mutate(quintile = ntile(median_household_income, 5)) %>%"
+"0"," group_by(quintile) %>%"
+"0"," summarise(median_household_income = mean(median_household_income),"
+"0","            average_pills_per_person = mean(average_pills_per_person))  "

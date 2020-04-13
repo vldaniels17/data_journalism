@@ -1,0 +1,3 @@
+"0","death_rate_pills <- pills_population %>%"
+"0","  inner_join(opioid_deaths, by=c(""countyfips"" = ""county_code""))"
+"0",""

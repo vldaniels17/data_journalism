@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586742521065.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "76EDC52A",
+    "lastKnownWriteTime" : 4121420528637341545,
+    "last_content_update" : 1586742521065,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "385E72E5",
+        "caption" : "pills_population_income",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pills_population_income&cache_key=385E72E5",
+        "displayedObservations" : 2968,
+        "environment" : "",
+        "expression" : "pills_population_income",
+        "object" : "pills_population_income",
+        "preview" : 0,
+        "totalObservations" : 2968,
+        "variables" : 10
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
