@@ -1,0 +1,7 @@
+"0","medicare_opioids <- read_csv(""data/medicare_opioids_dirty.csv"") %>%"
+"0","  clean_names() %>%"
+"0","  remove_empty_rows() %>%"
+"0","  filter(!str_detect(county, ""Statewide"")) "
+"0",""
+"0",""
+"0",""

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587264560243.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4118045632",
+    "id" : "1916E22F",
+    "lastKnownWriteTime" : 1587266856,
+    "last_content_update" : 1587266856289,
+    "path" : "~/GitHub/data_journalism/out-of-class-labs/lab_10/lab_10/lab_10_VICTORIADANIELS.Rmd",
+    "project_path" : "lab_10_VICTORIADANIELS.Rmd",
+    "properties" : {
+        "cursorPosition" : "421,1",
+        "last_setup_crc32" : "7733D038d4872713",
+        "scrollLine" : "372"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

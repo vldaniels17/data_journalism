@@ -1,0 +1,8 @@
+"0","opioid_deaths_county_working <- opioid_deaths_county %>%"
+"0","  separate(county, into=c(""county"",""state""), sep="","") %>%"
+"0","  mutate(state = str_trim(state)) %>%"
+"0","  mutate(county = tolower(county)) %>%"
+"0","  mutate(county = str_remove(county, ""county|parish|borough"")) %>%"
+"0","  mutate(county = str_trim(county))"
+"0",""
+"0","opioid_deaths_county_working"

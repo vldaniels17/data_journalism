@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587265761474.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "48BB959C",
+    "lastKnownWriteTime" : 8389754676516450921,
+    "last_content_update" : 1587265761474,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "672C1375",
+        "caption" : "medicare_opioids",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=medicare_opioids&cache_key=672C1375",
+        "displayedObservations" : 24,
+        "environment" : "",
+        "expression" : "medicare_opioids",
+        "object" : "medicare_opioids",
+        "preview" : 0,
+        "totalObservations" : 24,
+        "variables" : 5
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

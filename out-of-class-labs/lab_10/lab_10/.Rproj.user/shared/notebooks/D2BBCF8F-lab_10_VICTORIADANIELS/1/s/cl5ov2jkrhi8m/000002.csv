@@ -1,0 +1,3 @@
+"0","opioid_deaths_county <- read_tsv(""data/2006-2012.txt"")"
+"0",""
+"0","opioid_deaths_county"
